@@ -1,0 +1,35 @@
+{
+  "name": "herokutestdeploy",
+  "version": "1.0.0",
+  "description": "Test deployment of Heroku for LS backend app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommycollison/herokuTestDeploy.git"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Tommy Collison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tommycollison/herokuTestDeploy/issues"
+  },
+  "homepage": "https://github.com/tommycollison/herokuTestDeploy#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "knex": "^0.16.3",
+    "node": "^11.9.0",
+    "nodemon": "^1.18.10",
+    "sqlite3": "^4.0.6"
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "devDependencies": {}
+}
